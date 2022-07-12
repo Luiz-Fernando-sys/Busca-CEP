@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+.container {
+    height: 100vh; /*vh = viewheight*/ /* Ele irá pegar o tamanho da viewheight e tentar alocar 100% dela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*background: linear-gradient(#121212, #212b46);*/
+    background-image: radial-gradient(circle at 50% 50%, #d854ec 0, #bf4aee 16.67%, #a042f0 33.33%, #783cf2 50%, #3939f3 66.67%, #0038f5 83.33%, #003af6 100%);
+}
+
+.title{
+    font-size: 85px;
+    color: #FFF;
+    animation: flipTitle 2s;
+}
+
+/* Animação ao abrir a página no navegador para o title*/
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+
+.containerInput{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.containerInput input{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: #FFF;
+    outline: none;
+    margin-right: 8px;
+}
+
+.containerInput input::placeholder{
+    color: #F1F1F1;
+}
+
+.SearchButton{
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.SearchButton:hover{
+    transform: scale(1.2);
+}
+
+.informations_cep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(206, 206, 206);
+    width: 500px;
+    border-radius: 8px;
+}
+
+.informations_cep h2{
+    margin: 16px 0;
+    font-size: 39px;
+}
+
+.informations_cep span{
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+@media (max-width:620px) {
+    .title{
+        font-size: 60px;
+    }
+
+    .informations_cep h2{
+        font-size: 28px;
+    }
+
+    .informations_cep{
+        width: 80%;
+        min-height: 250px;
+    }
+}

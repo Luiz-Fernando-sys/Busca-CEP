@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### CREATING PROJECT
+
+Project created using CRA
+
+Command to run the project: npm start
+
+It was necessary to install the AXIOS library to be able to work with HTTP requests. Command: npm install axios
+
+
+### PROJECT STRUCTURE
+
+Inside the package.json file we have several files necessary for the execution of the project in REACT
+The 'node_modules' folder is a folder where the project's dependencies are contained and we usually never touch it.
+
+The file 'favicon.ico' is the icon of our project that is next to the title of our page.
+
+The following files were deleted from the 'src' folder: App.css, App.test.js, logo.svg, setupTest.js, reportWebVitals.js
+And other files that got an error due to not having some more files created, so it had to be fixed.
+
+
+### ARQUIVO "App.js"
+
+Foi necessário importar uma biblioteca específica para trabalhar com ícones para usarmos o ícone dentro do botão de pesquisar na className "SearchButton"
+
