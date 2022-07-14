@@ -95,3 +95,8 @@ And other files that got an error due to not having some more files created, so 
 Foi necessário importar uma biblioteca específica para trabalhar com ícones para usarmos o ícone dentro do botão de pesquisar na className "SearchButton"
 
 LINK PARA ACESSAR ESTE PROJETO NO GITHUB PAGES: https://luiz-fernando-sys.github.io/Busca-CEP/
+
+
+NOTE:
+
+It is necessary to run the command "npm install" after downloading the project to the machine and having Node JS installed for this process. After that, you can run the command "npm start"
