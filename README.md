@@ -100,3 +100,6 @@ LINK PARA ACESSAR ESTE PROJETO NO GITHUB PAGES: https://luiz-fernando-sys.github
 NOTE:
 
 It is necessary to run the command "npm install" after downloading the project to the machine and having Node JS installed for this process. After that, you can run the command "npm start"
+
+
+LINK DESTE PROJETO, HOSPEDADO NO NETLIFY: https://62d5c2282b934008f1a83f0d--super-bunny-b2f4a5.netlify.app/
